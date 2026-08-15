@@ -1,22 +1,12 @@
-/*
-!/.gitignore
-!/v2
-/v2/*
-!/v2/src
+.DS_Store
+**/.DS_Store
 
-/*
-!/.gitignore
-!/v3
-/v3/*
-!/v3/src
-
-# /*
-# !/.gitignore
-# !/.github
-# /.github/*
-# !/.github/workflows
-
-# /*
-# !/v2/src/
-# !/v3/src/
-# !.gitignore
+# PROS/VEX generated output and local tooling
+bin/
+build/
+compile_commands.json
+*.elf
+*.bin
+*.map
+.vscode/
+.idea/
